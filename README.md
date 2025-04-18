@@ -45,9 +45,3 @@ This code is intended to be used in an n8n workflow, typically in a `Code` node 
     ```
 5.  **Use in Edit Image Node:** In your `Edit Image` node, when adding text, use the expression `{{ $json.shapedText }}` (or your chosen output property name) in the "Text" field.
 6.  **Font:** Ensure the `Edit Image` node is configured to use a font that supports the required Arabic Unicode ranges, including the Arabic Presentation Forms A and B blocks (U+FE70–U+FEFF and U+FB50–U+FDFF). Without such a font, the shaped characters will likely appear as squares or incorrect glyphs.
-
-**The Code**
-
-```javascript
-// Paste the full code from persianArabicTextProcessor.js here
-// ... (Your complete code will go here) ...
