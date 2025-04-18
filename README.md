@@ -1,4 +1,4 @@
-# Persian/Arabic Text Processor for n8n Edit Image Node
+# Persian/Arabic Text Processor for n8n
 
 This repository contains JavaScript code designed to correctly render Persian and Arabic text within the n8n `Edit Image` node. Standard text rendering in many environments, including potentially canvas-based rendering used by the `Edit Image` node, often struggles with the complexities of Right-to-Left (RTL) text, character shaping (connecting forms), and ligatures.
 
